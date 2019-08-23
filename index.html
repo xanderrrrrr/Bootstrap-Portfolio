@@ -6,30 +6,101 @@
     <title>This is my portfolio</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <style>
+        body {
+            font-size: 18px;
+            line-height: 34px;
+            font-family: Arial, Helvetica, sans-serif;
+            color: #777;
+            background: url(../images/concrete-texture.png)
+        }
+
+        .container {
+            width: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            clear: both;
+        }
+
+        h1 {
+
+            font-size: 30px;
+            line-height: 49px;
+            border-bottom: 3px solid;
+            padding-bottom: 20px;
+        }
+
+        h1,
+        h2,
+        h3,
+        p {
+
+            margin-bottom: 20px;
+
+        }   
+        
+    </style>
 
 </head>
 
 <body>
     <div class="container">
-        <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
-            <a href="/" class="navbar-brand d-flex w-50 mr-auto">Xander Cañedo</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
-                <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
-                    </li>
-                </ul>
+        <header>
+            <nav class="navbar navbar-light navbar-expand-md bg-faded justify-content-center">
+                <a href="/" class="navbar-brand d-flex w-50 mr-auto">Xander Cañedo</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingNavbar3">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse w-100" id="collapsingNavbar3">
+                    <ul class="nav navbar-nav ml-auto w-100 justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="row">
+            <div class="col-md-12">
+                <h1>About Me</h1>
+
             </div>
-        </nav>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <img style="float:left" class="px-2" src="https://via.placeholder.com/200x200">
+                <p style="clear-both">Hello, my name is Xander Cañedo Gonzalez! I have two last names because I am
+                    Mexican,
+                    and in Mexico we carry on the Spanish tradition of having both paternal and maternal last names.
+                    I was born in New Jersey, but I have roots in San Diego, California and the city of Guadalajara
+                    in Mexico. However, I've called Salt Lake City home for the past 25 years.
+                    <br>
+                    I love to travel, eat good food, make good drinks, and generally live life to the fullest.
+                    I've been with my girlfriend, Elise, for about a year and a half. She's a native Utahn hailing
+                    from Utah County, however she's seen what Salt Lake has to offer and likely won't be going back
+                    any time soon, despite the fact that we both work in Lehi.
+                </p>
+                <p>
+                    I work for a project management SaaS company doing white-glove tech support. I'm well versed in
+                    consuming our own REST API (and I'm really exicted to be working on creating them further down the
+                    course!),
+                    as well as waterfall, agile, and kanban mangement methodologies. I work closely with our QA and Dev
+                    team
+                    because
+                    we need to collaborate so that we can deliver functionality our customers can rely on, as well as a
+                    product that we can tout. I'm not too fond of it. And I can't wait to get out of it. My career path
+                    was
+                    to move to QA Automation within my company but I recently did not get a position of Quality
+                    Engineer, so
+                    I've decided to take this course to expand my skills.</p>
+            </div>
+        </div>
     </div>
 </body>
 
