@@ -14,59 +14,86 @@
 
 <body>
     <!-- This is my header -->
-    <header>
-        <div class="container">
+    <div class="container">
+        <header>
             <div class="row">
-                <nav class="navbar navbar-expand-md bg-white fixed-top navbar-light bg-light" id="masthead">
-                    <div class="container p-0">
-                        <a class="navbar-brand py-0" href="#">
-                            <!--Logo-->
-                            <span id="logo">Xander Canedo</span>
-                        </a>
-                        <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
+                <div class="col-md-12">
+                    <nav class="navbar navbar-expand-md bg-white fixed-top navbar-light bg-light py-0" id="masthead">
+                        <div class="container p-0">
+                            <a class="navbar-brand py-0" href="#">
+                                <!--Logo-->
+                                <span id="logo">Xander Canedo</span>
+                            </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
 
-                        </button>
+                            </button>
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <!--Right Side Links-->
-                            <ul class="navbar-nav ml-auto">
-                                <li class="nav-item pr-2">
-                                    <a class="nav-link" href="index.html">About
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <!--Right Side Links-->
+                                <ul class="navbar-nav ml-auto">
+                                    <li class="nav-item pr-2">
+                                        <a class="nav-link" href="index.html">About
 
-                                    </a>
-                                </li>
-                                <li class="nav-item pr-2 pl-2 border-left">
-                                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                                </li>
-                                <li class="nav-item pl-2 border-left">
-                                    <a class="nav-link pr-0" href="contact.html">Contact</a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </nav>
-            </div>
-        </div>
-    </header>
-    <!-- this is the main body -->
-    <div class="row">
-        <div class="col-md-12">
-            <div id="main-container" class="container">
-                <section class="main-section">
-                    <h1>Contact</h1>
-                    <div class="input-group-prepend">
-                        <span class="input-group-text" id="basic-addon1">Name</span>
-                    </div>
-                    <input type="text" class="form-control" placeholder="Username" aria-label="John"
-                        aria-describedby="basic-addon1">
-                        <div class="input-group-prepend">
-                                <span class="input-group-text" id="basic-addon1">Email</span>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item pr-2 pl-2 border-left">
+                                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                                    </li>
+                                    <li class="nav-item pl-2 border-left">
+                                        <a class="nav-link pr-0" href="contact.html">Contact</a>
+                                    </li>
+                                </ul>
                             </div>
-                            <input type="text" class="form-control" placeholder="example@gmail.com" aria-label="John"
-                                aria-describedby="basic-addon1">
-                </section>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+    
+    <!-- this is the main body -->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="main-container" class="container">
+                    <section class="main-section">
+                        <h1>Contact</h1>
+                        <!-- first name form -->
+                        <ul>
+                            <li>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Name</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="John"
+                                        aria-describedby="basic-addon1">
+                                </div>
+                            </li>
+                            <!-- second email form -->
+                            <li>
+                                <div class="input-group mb-3">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text" id="basic-addon1">Email</span>
+                                    </div>
+                                    <input type="text" class="form-control" placeholder="example@gmail.com"
+                                        aria-label="John" aria-describedby="basic-addon1">
+                                </div>
+                            </li>
+                            <!-- third text form -->
+                            <li>
+                                <div class="input-group">
+                                    <div class="input-group-prepend">
+                                        <span class="input-group-text text">Message</span>
+                                    </div>
+                                    <textarea class="form-control" aria-label="With textarea"></textarea>
+                                </div>
+                            </li>
+                        </ul>
+
+                    </section>
+                </div>
             </div>
         </div>
     </div>

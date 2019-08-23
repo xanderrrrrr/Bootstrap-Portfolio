@@ -14,11 +14,13 @@ body {
     width: 100%;
     max-width: 960px;
     margin: 0 auto;
+    padding-right: 0 !important;
+    padding-left: 0 !important;
     clear: both;
 }
 
 h1, h2, h3, p {
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
 }
 
 p :last-child {
@@ -78,10 +80,10 @@ nav {
 nav a {
     color: #999;
     text-decoration: none;
-    margin-left: 15px;
+    margin-left: 0px;
     display: inline-block;
     border-left: 1px solid #efefef;
-    padding-left: 15px;
+    /* padding-left: 15px; */
     line-height: 18px;
 }
 
@@ -206,14 +208,14 @@ label, input[type=text], input[type=email], textarea {
 }
 
 input[type=text], input[type=email], textarea {
-    height: 35px;
+    /* height: 35px; */
     border: 1px solid #ddd;
     padding: 0 10px;
-    font-size: 14px;
+    /* font-size: 14px; */
 }
 
 textarea {
-    height: 200px;
+    height: 200px !important;
 }
 
 input[type=submit] { 
@@ -223,4 +225,10 @@ input[type=submit] {
     font-size: 18px;
     padding: 10px 30px; 
     cursor: pointer;
+}
+
+ol, ul {
+
+    list-style: none;
+
 }
